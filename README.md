@@ -35,6 +35,35 @@
     ```bash
     atitude
     ```
+#!/data/data/com.termux/files/usr/bin/bash
+# =========================================
+# ⚡ INSTALADOR OFICIAL - ATITUDE BR
+# =========================================
+
+clear
+echo " █████╗ ██╗████████╗███████╗██████╗ "
+echo "██╔══██╗██║╚══██╔══╝██╔════╝██╔══██╗ "
+echo "███████║██║   ██║   █████╗  ██████╔╝ "
+echo "██╔══██║██║   ██║   ██╔══╝  ██╔══██╗ "
+echo "██║  ██║██║   ██║   ███████╗██║  ██║ "
+echo "╚═╝  ╚═╝╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝ "
+echo "                                         "
+echo "          🇧🇷 INICIANDO INSTALAÇÃO 🇧🇷    "
+
+pkg update -y
+pkg install -y x11-repo pulseaudio wget termux-x11-nightly
+
+echo "📥 Baixando sistema base..."
+# Aqui vai o comando de baixar o glibc e wine
+# (Você já sabe o código que deu certo)
+
+echo "🔧 Criando comando principal..."
+# (Aqui ele copia o arquivo 'atitude' para a pasta bin)
+
+echo ""
+echo "✅ INSTALAÇÃO CONCLUÍDA!"
+echo "🚀 DIGITE: atitude"
+echo ""
 
 ---
 
