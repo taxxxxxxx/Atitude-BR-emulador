@@ -1,0 +1,1 @@
+# Atitude-BR-emulador
